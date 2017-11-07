@@ -3,6 +3,7 @@ package fr.lteconsulting.formation;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Movie {
 	
 	private String id;
@@ -13,6 +14,11 @@ public class Movie {
 	private List<Actor> actors = new ArrayList<>();
 	
 	
+	
+	public List<Actor> getlistActors()
+	{
+		return actors;
+	}
 	
 	
 	public Movie() {

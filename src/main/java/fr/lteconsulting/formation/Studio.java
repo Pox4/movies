@@ -1,13 +1,20 @@
 package fr.lteconsulting.formation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Studio {
 
 	private String name;
 	private String id;
 	private int creationDate;
+	private List<Movie> movies = new ArrayList<>();
 	
 	
-	
+	public List<Movie> getMovies()
+	{
+		return movies;
+	}
 	
 	public Studio() {
 	}
